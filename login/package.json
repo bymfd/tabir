@@ -1,0 +1,38 @@
+{
+  "name": "ReactNativeExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@huds0n/shared-state": "^1.5.1-beta3",
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "axios": "^0.19.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "0.61.4",
+    "react-native-encrypted-storage": "^4.0.2",
+    "react-native-loading-spinner-overlay": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
+  }
+}
